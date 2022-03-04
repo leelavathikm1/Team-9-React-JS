@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+div#container {
+    border: 1px solid gray;
+}
+div#header {
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 5px;
+    font-size: 30px;
+}
+div#parent {
+    margin: 5px;
+    overflow: auto;
+}
+div#listItems {
+    width: 250px;
+    background-color: gray;
+    float: left;
+}
+ul {
+    /* list-style-type: none; */
+    list-style-type: disclosure-open;
+}
+li {
+    line-height: 20px;
+}
+strong {
+    font-size: 30px;
+}
+div#article {
+    float: right;
+}
+div#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+    margin: 5px;
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            Fruits Details
+        </div>
+        <div id="parent">
+            <div id="listItems">
+                <ul>
+                    <li>Graphes</li>
+                    <li>Mango</li>
+                    <li>Banana</li>
+                    <li>Apple</li>
+                    <li>Orange</li>
+                </ul>
+            </div>
+            <div id="article">
+                <strong>Fruits Description</strong>
+                <p>In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, 
+                    enclosing the seed or seeds.</p>
+                <p>In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant,
+                     enclosing the seed or seeds.</p>
+            </div>
+        </div>
+        <div id="footer">
+            <p> Copu Rights @ In a botanical sense</p>
+        </div>
+    </div>
+</body>
+</html>
