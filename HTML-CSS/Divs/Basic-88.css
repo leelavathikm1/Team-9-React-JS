@@ -1,0 +1,33 @@
+*{
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+div#headSection {
+    background-color: #333333;
+}
+header {
+    width: 750px;
+    margin: 0 auto;
+    overflow: auto;
+}
+div#basic88 {
+    width: 210px;
+    float: left;
+    margin-top: 23px;
+    color: white;
+}
+nav {
+    width: 400px;
+    float: right;
+    background-color: gray;
+    margin: 20px;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+span {
+    font-size: 13px;
+}
+strong {
+    font-size: 30px;
+}
