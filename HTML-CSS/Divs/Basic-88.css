@@ -31,3 +31,38 @@ span {
 strong {
     font-size: 30px;
 }
+#imageParent {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#imageParent img {
+    width: 750px;
+}
+div#parent {
+    width: 750px;
+    margin: 0 auto;
+    overflow: auto;
+}
+div#subParents {
+    width: 230px;
+    float: left;
+    margin-right: 10px;
+}
+figure {
+    width: 210px;
+}
+figure img {
+    width: 205px;
+    margin-left: -38px;
+}
+figcaption strong {
+    font-size: 15px;
+}
+figcaption p {
+    font-size: 10px;
+}
+figcaption span {
+    font-size: 10px;
+    float: right;
+}
