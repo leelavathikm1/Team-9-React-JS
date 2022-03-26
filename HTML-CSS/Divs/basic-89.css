@@ -1,0 +1,34 @@
+* {
+    font-size: 14px;
+}
+div#parent {
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.sectionDivs {
+    width: 210px;
+    float: left;
+    margin-right: 20px;
+}
+figure {
+    padding: 0;
+    margin: 0;
+    float: left;
+    margin-right: 5px;
+}
+img {
+    width: 32px;
+    height: 30px;
+}
+#ancharTag a {
+    float: right;
+    color: orange;
+}
+div#sectionDiv4 {
+    width: 210px;
+    float: right;
+}
+p#p-strong {
+    margin-top: 7px;
+}
