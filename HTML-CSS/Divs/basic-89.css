@@ -32,3 +32,49 @@ div#sectionDiv4 {
 p#p-strong {
     margin-top: 7px;
 }
+*{
+    font-size: 12px;
+    color: gray;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+div#articleParent {
+width: 550px;
+float: left;
+}
+div#article1 {
+overflow: auto;
+}
+figure {
+float: left;
+border: 1px solid;
+padding: 4px;
+}
+span {
+float: right;
+}
+span a {
+text-decoration: none;
+color: orange;
+font-size: 12px;
+}
+aside {
+width: 170px;
+float: right;
+height: 300px;
+}
+ul {
+list-style-type: none;
+}
+a {
+background: url(./orange_file.gif) no-repeat 10px center #FFFFFF;
+padding: 5px 10px 5px 20px;
+text-decoration: none;
+border-bottom: 1px dotted gray;
+}
+li {
+line-height: 3;
+}
+#parent{
+width: 750px;
+margin: 0 auto;
+}
