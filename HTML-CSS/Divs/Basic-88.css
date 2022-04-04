@@ -10,6 +10,8 @@ header {
     width: 750px;
     margin: 0 auto;
     overflow: auto;
+    position: fixed;
+    top: 0;
 }
 div#basic88 {
     width: 210px;
